@@ -32,7 +32,7 @@ public abstract class IpService {
      */
     public static void recordIpToAddress(UUID playerUUID, String ip) {
         try {
-            URL url = new URL("http://ip-api.com/json/" + "110.252.248.120" + "?lang=zh-CN");
+            URL url = new URL("http://ip-api.com/json/" + ip + "?lang=zh-CN");
             HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
             urlConnection.setConnectTimeout(10000);
             urlConnection.setDoInput(true);
