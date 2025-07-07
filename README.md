@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="FastIpRegion Logo" width="128" style="border-radius: 15px;">
+</p>
+
 # FastIpRegion 插件
 
 ## 概述
