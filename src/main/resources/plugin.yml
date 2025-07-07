@@ -1,0 +1,8 @@
+name: FastIpRegion
+version: 1.0.0
+main: cc.mcyx.fastipregion.FastIpRegion
+author: Zcc
+website: https://blog.mcyx.cc
+folia-supported: true
+depend:
+  - PlaceholderAPI
